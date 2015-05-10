@@ -18,13 +18,25 @@
 		position: absolute;
 		top:0;
 		left: 0;
-		clip: rect(0,300px,300px,0);/*top,right,buttom,left*/
+		clip: rect(0,200px,200px,0);/*top,right,buttom,left*/
+	}
+	#preview{
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		top:100px;
+		left: 1000px;
+
+	}
+	#preview img{
+		position: absolute;
 	}
 	#main{
 		border: 1px solid #fff;
-		width: 300px;
-		height: 300px;
+		width: 200px;
+		height: 200px;
 		position: absolute;
+		cursor: move;
 	}
 	.minDiv{/*position is half parent width sub half self*/
 		position: absolute;
