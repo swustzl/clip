@@ -1,3 +1,4 @@
+/*2015年5月10日13:39:39*/
 window.onload = function(){
 	var rightDiv = document.getElementById("right");
 	var mainDiv = document.getElementById("main");
