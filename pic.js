@@ -1,4 +1,4 @@
-/*2015年5月10日13:39:39*/
+/*2015年5月18日23:45:05*/
 document.onselectstart=new Function('event.returnValue=false;');
 window.onload = function(){
 	$("#main").draggable({ containment: 'parent' ,drag: setChoice});
